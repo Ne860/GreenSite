@@ -1,0 +1,256 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Express China Consulting — Бизнес, торговля и поступление в вузы Китая</title>
+  <meta name="description" content="Express China Consulting: помогаем запускать бизнес и торговлю в Китае, сопровождаем поступление в университеты Китая, переводы и организация бизнес-поездок." />
+  <meta property="og:title" content="Express China Consulting" />
+  <meta property="og:description" content="Бизнес и торговля в Китае, поступление в университеты, переводы, бизнес-поездки." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="logo.svg" />
+  <link rel="icon" href="Logo.jpg" />
+  <link rel="preload" href="styles.css" as="style" />
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Express China Consulting — На главную">
+        <img src="Logo.jpg" alt="Логотип Express China Consulting" width="36" height="36" />
+        <span>Express China Consulting</span>
+      </a>
+      <nav class="nav" aria-label="Главная навигация">
+        <button class="nav-toggle" aria-expanded="false" aria-label="Меню">
+          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </button>
+        <ul class="nav-list">
+          <li><a href="#services">Услуги</a></li>
+          <li><a href="#process">Процесс</a></li>
+          <li><a href="#cases">Кейсы</a></li>
+          <li><a href="#about">О нас</a></li>
+          <li><a href="#contact">Контакты</a></li>
+        </ul>
+      </nav>
+      <a class="cta cta-small" href="#contact">Получить консультацию</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Бизнес в Китае — быстро, прозрачно, под ключ</h1>
+          <p class="lead">Запускаем торговлю и бизнес-процессы, сопровождаем поступление в университеты Китая, делаем переводы и организуем бизнес-поездки.</p>
+          <div class="hero-ctas">
+            <a class="cta" href="#contact">Бесплатная консультация</a>
+            <a class="cta-outline" href="#services">Посмотреть услуги</a>
+          </div>
+          <ul class="trust">
+            <li>Опыт на рынке Китая 6+ лет</li>
+            <li>Команда в ТМ и КНР</li>
+            <li>Поддержка на русском, английском и китайском</li>
+          </ul>
+        </div>
+        <div class="hero-media" role="img" aria-label="Современный деловой пейзаж Шанхая с небоскрёбами">
+          <!-- Decorative gradient card grid -->
+          <div class="card-grid">
+            <div class="card"><h3>Торговля</h3><p>Поиск поставщиков, переговоры, контроль качества.</p></div>
+            <div class="card"><h3>Бизнес</h3><p>Регистрация компаний, бухгалтерия, комплаенс.</p></div>
+            <div class="card"><h3>Университеты</h3><p>Подбор программ, подача документов, стипендии.</p></div>
+            <div class="card"><h3>Переводы</h3><p>Технический, юридический, устный синхрон.</p></div>
+            <div class="card"><h3>Поездки</h3><p>Визы, маршруты, встречи на заводах и ярмарках.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <h2>Услуги</h2>
+        <div class="services">
+          <article class="service">
+            <h3>Бизнес и торговля в Китае</h3>
+            <ul>
+              <li>Аналитика рынка, оценка рисков</li>
+              <li>Поиск и проверка поставщиков (due diligence)</li>
+              <li>Переговоры и сопровождение сделок</li>
+              <li>Контроль качества, инспекции, логистика</li>
+            </ul>
+          </article>
+          <article class="service">
+            <h3>Поступление в университеты Китая</h3>
+            <ul>
+              <li>Подбор программ (бакалавриат, магистратура, языковые курсы)</li>
+              <li>Подготовка портфолио и документов</li>
+              <li>Подача заявлений, сопровождение по визе X</li>
+              <li>Стипендии CSC и университетские гранты</li>
+            </ul>
+          </article>
+          <article class="service">
+            <h3>Переводы</h3>
+            <ul>
+              <li>Письменные переводы (рус/кит/англ)</li>
+              <li>Юридические и технические тексты</li>
+              <li>Устные переводы на встречах и выставках</li>
+              <li>Нотариальное заверение и апостиль</li>
+            </ul>
+          </article>
+          <article class="service">
+            <h3>Бизнес-поездки</h3>
+            <ul>
+              <li>Приглашения, визовая поддержка M/F</li>
+              <li>Индивидуальные маршруты и логистика</li>
+              <li>Организация встреч на заводах</li>
+              <li>Сопровождение на выставках (Canton Fair и др.)</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="process" class="section alt">
+      <div class="container">
+        <h2>Как мы работаем</h2>
+        <ol class="steps">
+          <li><strong>Заявка.</strong> Короткий бриф — поймём задачу и сроки.</li>
+          <li><strong>Предложение.</strong> План, смета и прозрачные этапы.</li>
+          <li><strong>Запуск.</strong> Договор, выделенная команда и чат.</li>
+          <li><strong>Результат.</strong> Отчётность, закрывающие и поддержка.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="cases" class="section">
+      <div class="container">
+        <h2>Кейсы и результаты</h2>
+        <div class="cards">
+          <div class="case">
+            <h3>Выход бренда электроники на маркетплейсы</h3>
+            <p>Нашли OEM-поставщика в Шэньчжэне, снизили себестоимость на 18%, организовали инспекции и сертификацию.</p>
+          </div>
+          <div class="case">
+            <h3>Поступление в топ-университет</h3>
+            <p>Подготовили портфолио и подали документы в 5 вузов. Получена стипендия CSC и виза X1.</p>
+          </div>
+          <div class="case">
+            <h3>Технический перевод 300+ стр.</h3>
+            <p>Собрали терминологическую базу, провели двустороннюю вычитку, сдали раньше срока.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section alt">
+      <div class="container about">
+        <div class="about-text">
+          <h2>О компании</h2>
+          <p>Express China Consulting — ваш надёжный партнёр в Китае. Мы соединяем российский бизнес и китайский рынок, помогаем абитуриентам поступать в вузы, а командам — эффективно работать между странами.</p>
+          <ul class="badges">
+            <li>Офисы: Москва · Шанхай</li>
+            <li>Языки: RU · EN · 中文</li>
+            <li>Налоги и комплаенс в КНР</li>
+          </ul>
+        </div>
+        <div class="about-card">
+          <h3>Почему мы?</h3>
+          <ul>
+            <li>Сильные контакты и проверенные поставщики</li>
+            <li>Юристы и переводчики в штате</li>
+            <li>Фиксированная смета и SLA по срокам</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2>Контакты</h2>
+        <p class="lead">Опишите задачу — вернёмся с предложением и сметой.</p>
+        <div class="contact-grid">
+          <form id="contact-form" class="contact-form" action="https://formspree.io/f/your-id" method="POST">
+            <label for="name">Имя</label>
+            <input id="name" name="name" type="text" required placeholder="Как к вам обращаться?" />
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required placeholder="name@example.com" />
+
+            <label for="service">Интересующая услуга</label>
+            <select id="service" name="service" required>
+              <option value="" selected disabled>Выберите...</option>
+              <option>Бизнес и торговля</option>
+              <option>Поступление в вуз</option>
+              <option>Переводы</option>
+              <option>Бизнес-поездка</option>
+              <option>Другое</option>
+            </select>
+
+            <label for="message">Сообщение</label>
+            <textarea id="message" name="message" rows="5" placeholder="Кратко опишите задачу"></textarea>
+
+            <button class="cta" type="submit">Отправить</button>
+            <p class="form-note">Нажимая «Отправить», вы соглашаетесь с обработкой персональных данных.</p>
+          </form>
+
+          <div class="contact-cards">
+            <div class="mini-card">
+              <h3>Мессенджеры</h3>
+              <ul>
+                <li><a href="https://wa.me/99365862014" target="_blank" rel="noopener">WhatsApp</a></li>
+                <li><a href="#" aria-label="WeChat QR">WeChat (QR-код)</a></li>
+                <li><a href="mailto:admin@expresschina.info">admin@expresschina.info</a></li>
+              </ul>
+            </div>
+            <div class="mini-card">
+              <h3>Адреса</h3>
+              <p>Пекин , Ашхабадб, Лебап, Мары, Шанхай, Сиань, Гуанчжоу </p>
+              <h3>График</h3>
+              <p> Пн–Вс: 7:00–19:00 (MSK)</p>
+            </div>
+            <div class="mini-card">
+              <h3>Документы</h3>
+              <ul>
+                <li><a href="#" download>Реквизиты (PDF)</a></li>
+                <li><a href="#" download>Презентация (PDF)</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Express China Consulting</p>
+      <nav aria-label="Футер">
+        <a href="#services">Услуги</a>
+        <a href="#about">О нас</a>
+        <a href="#contact">Контакты</a>
+        <a href="#" id="back-to-top">Наверх ↑</a>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Express China Consulting",
+    "url": "https://example.com",
+    "logo": "https://example.com/logo.svg",
+    "contactPoint": [{
+      "@type": "ContactPoint",
+      "contactType": "sales",
+      "email": "hello@expresschina.example",
+      "availableLanguage": ["Russian","English","Chinese"]
+    }],
+    "sameAs": []
+  }
+  </script>
+</body>
+</html>
